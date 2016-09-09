@@ -1,2 +1,2 @@
 # Batch Renamer
-A script written in Python 2.7 to automatically rename files in a folder with the specified name ending with incrementing numbers
+A script written in Python 2.7 to automatically rename files in a folder with the specified name ending with incrementing numbers.
