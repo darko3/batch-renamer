@@ -2,7 +2,7 @@
 A script written in Python 2.7 to automatically rename files in a folder with the specified name ending with incrementing numbers.
 
 ## Requirements
-**Note: I will compile the binary / executable files for Windows and Linux very soon, so you don't need to have Python 2.7 installed anymore.**
+**Note: I will compile the binary / executable files for Windows and Linux systems very soon, so you don't need to have Python 2.7 installed anymore.**
 * Python 2.7
 * A Linux or Windows Operating System
 
