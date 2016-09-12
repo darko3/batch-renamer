@@ -3,7 +3,7 @@ python:
   - "2.7"
   
 install:
-  - sudo pip install tkinter
+  - sudo apt-get install python-tk
   - sudo pip install nvpy
   - sudo apt-get install python-stdeb fakeroot python-all
   
