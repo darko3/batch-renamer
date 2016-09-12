@@ -3,3 +3,4 @@ python:
   - "2.7"
 script: 
   - python batch-renamer-cli.py
+  
