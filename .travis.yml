@@ -4,7 +4,7 @@ python:
   
 install:
   - sudo apt-get install python-tk
-  - sudo pip install nvpy
+  - pip install nvpy
   - sudo apt-get install python-stdeb fakeroot python-all
   
 script:
