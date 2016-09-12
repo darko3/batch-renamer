@@ -3,6 +3,13 @@
 
 A script written in Python 2.7 to automatically rename files in a folder with the specified name ending with incrementing numbers.
 
+## Releases
+* Batch File Renamer v1.0.1
+
+Latest release: v1.0.1
+
+You can find all releases on the releases page: [https://github.com/darko3/batch-renamer/releases](https://github.com/darko3/batch-renamer/releases)
+
 ## Requirements
 > **Note: I will compile the binary / executable files for Windows and Linux systems very soon, so you don't need to have Python 2.7 installed anymore.**
 
