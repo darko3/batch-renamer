@@ -3,7 +3,7 @@ python:
   - "2.7"
   
 install:
-  - apt-get install python-stdeb fakeroot python-all
+  - sudo apt-get install python-stdeb fakeroot python-all
   
 script: 
   - python -c "import batch_renamer_cli"
