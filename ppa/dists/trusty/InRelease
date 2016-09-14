@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Codename: trusty
+Date: Wed, 14 Sep 2016 14:27:28 UTC
+Architectures: i386 amd64
+Components: main
+MD5Sum:
+ 1f7a5f6e82ff750e388eaadfd0286765 608 main/binary-i386/Packages
+ 037879f4a291e5da3ef3b3e5ef848af9 420 main/binary-i386/Packages.gz
+ 5e77d15a7c8b516e15488780beb4ad24 35 main/binary-i386/Release
+ 1f7a5f6e82ff750e388eaadfd0286765 608 main/binary-amd64/Packages
+ 037879f4a291e5da3ef3b3e5ef848af9 420 main/binary-amd64/Packages.gz
+ 063287201b2354699acfe229a752201d 36 main/binary-amd64/Release
+SHA1:
+ 2306e446af41f8665bf2d32788bb29893b0e62c1 608 main/binary-i386/Packages
+ aa84a8bb71d1faf54ea8f74edb521587f5999412 420 main/binary-i386/Packages.gz
+ ea0e5aa4a1859481eb8929e40af14736bd50387b 35 main/binary-i386/Release
+ 2306e446af41f8665bf2d32788bb29893b0e62c1 608 main/binary-amd64/Packages
+ aa84a8bb71d1faf54ea8f74edb521587f5999412 420 main/binary-amd64/Packages.gz
+ f9082edea14092794f38390390e06abf8a922f7d 36 main/binary-amd64/Release
+SHA256:
+ 8343a94ed133eba609fe853e04cd49dbf8399f1fc689b05acae431d3ca0c090b 608 main/binary-i386/Packages
+ 868aa7f27bef06d15382baf9bb3af4c1c0b12494d89eac258de7e7f648d4e7dd 420 main/binary-i386/Packages.gz
+ 2ca4451c438b7f4614813919cded632edc7d0318dd7b120d5aa77ec03f055dd6 35 main/binary-i386/Release
+ 8343a94ed133eba609fe853e04cd49dbf8399f1fc689b05acae431d3ca0c090b 608 main/binary-amd64/Packages
+ 868aa7f27bef06d15382baf9bb3af4c1c0b12494d89eac258de7e7f648d4e7dd 420 main/binary-amd64/Packages.gz
+ f4aafa353a338baedf9e98523c13d7ffeda979ec3cf745f9fad977dd770595c8 36 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQEcBAEBCAAGBQJX2V5aAAoJEMU8t4XpxATRcDEH/i6lLis+CV37sFtNY2RrnHfl
+lPfwPkZxiVVSLXZib1v3vsL7zXGpBvlKdZWLecaRowYeFPuYKR+M0ruMbYkO0F0L
+DYvwkKPBtoIdSL/qTYZIhQidbdH4HA6vHb6tZzt2b56wGRto2bVI516ahtOMdSA+
+5218brFgDjhEhky9BRiDoNunG9PVHAPjhnrSa4Wzus+vIM3y+1CIaBvvlBfHiWgU
+uGShWtjiczbotrV+zjIstSqeIvD6tAfGq6WroqMyqtoI/RoV/UrXzg0VbuV6zdJm
+ou1nb7aAjhFWWa6ijJIE7JIH5KriYt396dyoJNa7myXsSztgJLUhTDi0SiyJm30=
+=Hyk3
+-----END PGP SIGNATURE-----
