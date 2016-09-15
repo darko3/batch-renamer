@@ -5,8 +5,9 @@ A script written in Python 2.7 to automatically rename files in a folder with th
 
 ## Releases
 * Batch File Renamer v1.0.1
+* Batch File Renamer v1.0.2a
 
-Latest release: v1.0.1
+Latest release: v1.0.2a
 
 You can find all releases on the releases page: [https://github.com/darko3/batch-renamer/releases](https://github.com/darko3/batch-renamer/releases)
 
