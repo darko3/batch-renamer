@@ -160,13 +160,14 @@ SOFTWARE.
         total_time = end - start
         print "Finished renaming %s files with a total time of %s seconds." % (self.file_counter, total_time)
         
-        
+
 if __name__ == "__main__":
-    
+
     try:
+
         home = os.path.expanduser("~")
         os.mkdir("%s/.batch-renamer-cli" % home)
+        Main()
+
     except OSError as e:
-        pass
-    
-    main = Main()
+        Main()

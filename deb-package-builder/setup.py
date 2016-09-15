@@ -2,11 +2,10 @@
 
 import os
 from setuptools import setup
-from nvpy import nvpy
 
 setup (
 	name = "batch-renamer-cli",
-	version = "1.0.1",
+	version = "1.0.2a",
 	author = "Girish Oemrawsingh",
 	author_email = "skrillex2408@gmail.com",
 	description = "Rename files in a folder fast!",
@@ -20,5 +19,4 @@ setup (
 		"License :: MIT",
 	],
 )
-	
 
