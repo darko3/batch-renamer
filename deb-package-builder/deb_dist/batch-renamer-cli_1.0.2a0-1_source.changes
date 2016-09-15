@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Thu, 15 Sep 2016 18:22:53 -0300
+Source: batch-renamer-cli
+Binary: python-batch-renamer-cli
+Architecture: source
+Version: 1.0.2a0-1
+Distribution: unstable
+Urgency: low
+Maintainer: Girish Oemrawsingh <skrillex2408@gmail.com>
+Changed-By: Girish Oemrawsingh <skrillex2408@gmail.com>
+Description:
+ python-batch-renamer-cli - Rename files in a folder fast!
+Changes:
+ batch-renamer-cli (1.0.2a0-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.8.5
+Checksums-Sha1:
+ 03b2dcc58cc227e07b649522a58c20469e3ce649 1006 batch-renamer-cli_1.0.2a0-1.dsc
+ 38730e52046614d3201baa18bf79a0b69382a828 2883 batch-renamer-cli_1.0.2a0.orig.tar.gz
+ 46af7c3e99209a4b3bd4fdcd7aaf4c7b3ccfffa6 916 batch-renamer-cli_1.0.2a0-1.debian.tar.xz
+Checksums-Sha256:
+ fcaf2343f2333c1ac865cca0b6e1ad18e9bf2b0edaa93124ce7f973289a49b36 1006 batch-renamer-cli_1.0.2a0-1.dsc
+ a0f10ce271266440fa07b12eeb202353f890de07f9f0ff4c3e7d7e2e73e960b7 2883 batch-renamer-cli_1.0.2a0.orig.tar.gz
+ 4efa9e6002eda59a6015d2cb5654c3385a3dace1235c76e93968edf5b13515f4 916 batch-renamer-cli_1.0.2a0-1.debian.tar.xz
+Files:
+ 3611f2d4c13cea21643e145b5a8051aa 1006 python optional batch-renamer-cli_1.0.2a0-1.dsc
+ 9f5e3f211a58c0646bff7f8d0126de41 2883 python optional batch-renamer-cli_1.0.2a0.orig.tar.gz
+ 15b46a2f88d69c38bc83f76e4987188e 916 python optional batch-renamer-cli_1.0.2a0-1.debian.tar.xz
