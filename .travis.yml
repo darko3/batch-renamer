@@ -10,5 +10,5 @@ install:
 script:
   - cd deb-package-builder
   - sudo python setup.py --command-packages=stdeb.command bdist_deb
-  - sudo dpkg -i deb_dist/python-batch-renamer-cli_1.0.1-1_all.deb 
+  - sudo dpkg -i deb_dist/python-batch-renamer-cli_1.0.2a0-1_all.deb
   
