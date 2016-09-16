@@ -11,6 +11,11 @@ Latest release: v1.0.2a
 
 You can find all releases on the releases page: [https://github.com/darko3/batch-renamer/releases](https://github.com/darko3/batch-renamer/releases)
 
+## Installation
+> *Only Ubuntu Xenial, Trusty, Vivid and Wily are supported if you're installing from a PPA
+
+Please see https://darko3.github.io/batch-renamer/installation for installation inctructions.
+
 ## Requirements
 > **Note: I will compile the binary / executable files for Windows and Linux systems very soon, so you don't need to have Python 2.7 installed anymore.**
 
