@@ -1,7 +1,7 @@
 ## Batch Renamer 
 [![Build Status](https://travis-ci.org/darko3/batch-renamer.svg?branch=master)](https://travis-ci.org/darko3/batch-renamer) [![Packagist](https://img.shields.io/badge/python-2.7-yellow.svg)](https://www.python.org) [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)](https://github.com/darko3/batch-renamer/blob/master/LICENSE) [![Packagist](https://img.shields.io/badge/OS-Linux%20|%20Windows-orange.svg)](#)
 
-A script written in Python 2.7 to automatically rename files in a folder with the specified name ending with incrementing numbers.
+A script written in Python 2.7 to batch rename files in a folder with the specified name ending with incrementing numbers.
 
 ## Releases
 * Batch File Renamer v1.0.1
