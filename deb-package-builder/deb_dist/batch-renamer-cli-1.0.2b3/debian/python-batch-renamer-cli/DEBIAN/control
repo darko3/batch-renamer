@@ -1,0 +1,11 @@
+Package: python-batch-renamer-cli
+Source: batch-renamer-cli
+Version: 1.0.2b3-1
+Architecture: all
+Maintainer: Girish Oemrawsingh <skrillex2408@gmail.com>
+Installed-Size: 27
+Depends: python:any (<< 2.8), python:any (>= 2.7.5-5~)
+Section: python
+Priority: optional
+Homepage: https://github.com/darko3/batch-renamer
+Description: Batch rename files in a folder quickly.

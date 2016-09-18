@@ -1,36 +1,6 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 
-import os
-import sys
-import time
-import pickle
-import getopt
-
-
-class Main():
-    
-    def __init__(self):
-        self.home = os.path.expanduser("~")
-        self.folder = ''
-        self.file_path = ''
-        self.new_name = ''
-        self.file_counter = 0
-        self.license_agree = ''
-        self.usage = """
-Batch File Renamer - (C) 2016 Girish Oemrawsingh
-View this project on Github: https://github.com/darko3/batch-renamer
-
-
-usage: ./batch_renamer.py [options]
-
-Options:
-
-  -h, --help\t\t\t\tprint this help menu and exit
-  -p, --folder-path <folder-path>\tspecify folder path that includes files to rename
-  -n, --new-name <new-file-name>\tspecify the new filename for the files in the folder
-
-            """
-        self.license = """
+"""
 MIT License
 
 Copyright (c) 2016 Girish Oemrawsingh
@@ -52,122 +22,116 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-        """
-        try:
-            
-            with open("%s/.batch-renamer-cli/agrl.bfr" % self.home, "rb") as handle:
-                self.license_agree = pickle.load(handle)
-                
-        except IOError:
+"""
 
-            while self.license_agree != "yes" or "y" or "n" or "no":
-                self.license_agree = raw_input("%s\n\nDo you accept the license? \n(Y/n): " % self.license).lower()
+import os
+import sys
+import time
+import getopt
 
-                if self.license_agree == "y":
-                    self.license_agree = "yes"
-                    # print "Agree"
-                    with open("%s/.batch-renamer-cli/agrl.bfr" % self.home, "wb") as handle:
-                        pickle.dump("yes", handle)
-                    break
+# import the color module I wrote for my projects
+from color import Color as tcolor
+from color import textType as ttype
 
-                elif self.license_agree == "yes":
-                    # print "Agree"
-                    with open("%s/.batch-renamer-cli/agrl.bfr" % self.home, "wb") as handle:
-                        pickle.dump("yes", handle)
-                    break
+version = '1.0.2b'
+github_project_page = ttype.bold + tcolor.green + 'https://github.com/darko3/batch-renamer'  + tcolor.white
+usage = """
+Batch File Renamer %s - (C) 2016 Girish Oemrawsingh
+View this project on Github: %s
 
-                elif self.license_agree == "n":
-                    # print "DisAgree"
-                    with open("%s/.batch-renamer-cli/agrl.bfr" % self.home, "wb") as handle:
-                        pickle.dump("no", handle)
-                    sys.exit(0)
 
-                elif self.license_agree == "no":
-                    # print "DisAgree"
-                    with open("%s/.batch-renamer-cli/agrl.bfr" % self.home, "wb") as handle:
-                        pickle.dump("no", handle)
-                    sys.exit(0)
-                    
-        if self.license_agree == "yes":
+usage: ./batch-renamer-cli.py [options]
 
-            try:
-                opts, args = getopt.getopt(sys.argv[1:], "hp:n:", ["help", "folder-path=", "new-name="])
+Options:
 
-            except getopt.GetoptError as e:
-                print self.usage
-                print str(e) + "\n"
-                sys.exit(0)
+  -h, --help                        print this help menu and exit
+  -p, --folder-path <folder-path>   specify folder path that includes files to rename
+  -n, --new-name <new-file-name>    specify the new filename for the files in the folder
 
-            for opt, arg in opts:
+""" % (version, github_project_page)
 
-                if opt in ("-h", "--help"):
-                    print self.usage
-                    sys.exit(0)
 
-                elif opt in ("-p", "--folder-path"):
-                    self.folder = arg
+def main(folder, new_name):
+    
+    try:
+        opts, args = getopt.getopt(sys.argv[1:], "hp:n:", ["help", "folder-path=", "new-name="])
 
-                elif opt in ("-n", "--new-name"):
-                    self.new_name = arg
+    except getopt.GetoptError as e:
+        print(usage)
+        print(str(e) + "\n")
+        sys.exit(1)
 
-            if self.folder == '':
-                print self.usage
-                sys.exit(0)
+    for opt, arg in opts:
 
-            elif self.new_name == '':
-                print self.usage
-                sys.exit(0)
-
-            else:
-                # print "Folder Path: %s" % self.folder
-                # print "New Name: %s" % self.new_name
-                self.rename_files()
-                
-        else:
-            print "You did not agree with the license"
+        if opt in ("-h", "--help"):
+            print(usage)
             sys.exit(0)
-            
-    def rename_files(self):
-        
-        print "\nNew name: %s" % self.new_name
-        print "Folder path: %s\n" % self.folder
+
+        elif opt in ("-p", "--folder-path"):
+            folder = arg
+
+        elif opt in ("-n", "--new-name"):
+            new_name = arg
+
+    if folder == '':
+        print(usage)
+        sys.exit(1)
+
+    elif new_name == '':
+        print(usage)
+        sys.exit(1)
+
+    else:
+        rename_files(folder, new_name)
+
+def rename_files(folder_path, new_name):
+    
+    file_counter = 0
+    
+    print("\nNew name: %s" % new_name)
+    print("Folder path: %s\n" % folder_path)
+    
+    try:
         
         try:
             
-            enter_to_continue = raw_input("PLEASE CHECK IF THE FOLDER PATH AND NEW NAME IS CORRECT\nBECAUSE YOU CAN EASILY RENAME FILES IN ANY FOLDER YOU DID NOT INTEND TO.\n\nPRESS [ENTER] TO CONTINUE OR CTRL + C TO EXIT\n")
+            raw_input(ttype.bold + tcolor.red + """PLEASE CHECK IF THE FOLDER PATH AND NEW NAME IS CORRECT
+BECAUSE YOU CAN EASILY RENAME FILES IN ANY FOLDER YOU DID NOT INTEND TO\n
+PRESS [ENTER] TO CONTINUE OR CTRL + C TO EXIT\n""")
             
-        except KeyboardInterrupt:
-            print "\nThank you for using Batch File Renamer by Girish Oemrawsingh."
-            print "You can view this project on Github: https://github.com/darko3/batch-renamer"
-            sys.exit(0)
+        except NameError:
+            input(ttype.bold + tcolor.red + """PLEASE CHECK IF THE FOLDER PATH AND NEW NAME IS CORRECT
+BECAUSE YOU CAN EASILY RENAME FILES IN ANY FOLDER YOU DID NOT INTEND TO\n
+PRESS [ENTER] TO CONTINUE OR CTRL + C TO EXIT\n""" + tcolor.white)
         
-        start = time.time()
+    except KeyboardInterrupt:
+        print("\nThank you for using Batch File Renamer by Girish Oemrawsingh.")
+        print("You can view this project on Github: https://github.com/darko3/batch-renamer")
+        sys.exit(2)
         
-        for root, dirs, files in os.walk(self.folder):
+        
+    start = time.time()
+    
+    for root, dirs, files in os.walk(folder_path):
+        
+        dirs.sort()
+        files.sort()
+        
+        for f in files:
+            file_counter += 1
+            file_path = "%s/%s" % (root, f)
+            print("Renaming %s" % file_path)
+            ext = os.path.splitext(new_name)[1]
+            fname = os.path.splitext(new_name)[0]
+            os.rename(file_path, "%s/%s %s%s" % (root, fname, file_counter, ext))
             
-            dirs.sort()
-            files.sort()
+    end = time.time()
+    total_time = end - start
+    print("\nFinished renaming %d files with a total time of %f seconds." % (file_counter, total_time))
+    sys.exit(0)
             
-            for file in files:
-                self.file_counter += 1
-                self.file_path = "%s/%s" % (root, file)
-                print "Renaming %s......" % self.file_path
-                ext = os.path.splitext(self.new_name)[1]
-                fname = os.path.splitext(self.new_name)[0]
-                os.rename(self.file_path, "%s/%s %s%s" % (root, fname, self.file_counter, ext))
-                
-        end = time.time()
-        total_time = end - start
-        print "Finished renaming %s files with a total time of %s seconds." % (self.file_counter, total_time)
-        
 
 if __name__ == "__main__":
-
-    try:
-
-        home = os.path.expanduser("~")
-        os.mkdir("%s/.batch-renamer-cli" % home)
-        Main()
-
-    except OSError as e:
-        Main()
+    folder = ''
+    new_name = ''
+    main(folder, new_name)

@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Sat, 17 Sep 2016 23:50:06 -0300
+Source: batch-renamer-cli
+Binary: python-batch-renamer-cli
+Architecture: all
+Version: 1.0.2b3-1
+Distribution: unstable
+Urgency: low
+Maintainer: Girish Oemrawsingh <skrillex2408@gmail.com>
+Changed-By: Girish Oemrawsingh <skrillex2408@gmail.com>
+Description:
+ python-batch-renamer-cli - Batch rename files in a folder quickly.
+Changes:
+ batch-renamer-cli (1.0.2b3-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.8.5
+Checksums-Sha1:
+ e8387a597b3dfe6c9486113cc109efd026a33c13 4084 python-batch-renamer-cli_1.0.2b3-1_all.deb
+Checksums-Sha256:
+ bc11143c6c8a51442d0091e70f415b4f6ad9364c03fe6f8fcb53f8b4382fbab5 4084 python-batch-renamer-cli_1.0.2b3-1_all.deb
+Files:
+ ea7dfce48eac1737ff5cc16dccccc3a1 4084 python optional python-batch-renamer-cli_1.0.2b3-1_all.deb

@@ -1,3 +1,4 @@
+setup.cfg
 setup.py
 batch_renamer_cli.egg-info/PKG-INFO
 batch_renamer_cli.egg-info/SOURCES.txt
