@@ -51,7 +51,7 @@ Options:
 """ % (version, github_project_page)
 
 
-def main(folder, new_name):
+def init(folder, new_name):
     
     try:
         opts, args = getopt.getopt(sys.argv[1:], "hp:n:", ["help", "folder-path=", "new-name="])
@@ -127,7 +127,7 @@ PRESS [ENTER] TO CONTINUE OR CTRL + C TO EXIT\n""" + tcolor.white)
     print("\nFinished renaming %d files with a total time of %f seconds." % (file_counter, total_time))
             
 
-if __name__ == "__main__":
+def main():
     folder = ''
     new_name = ''
-    main(folder, new_name)
+    init(folder, new_name)
