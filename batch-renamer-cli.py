@@ -90,23 +90,20 @@ def rename_files(folder_path, new_name):
     
     print("\nNew name: %s" % new_name)
     print("Folder path: %s\n" % folder_path)
-    
-    try:
         
-        try:
-            
-            raw_input(ttype.bold + tcolor.red + """PLEASE CHECK IF THE FOLDER PATH AND NEW NAME IS CORRECT
+    try:
+        raw_input(ttype.bold + tcolor.red + """PLEASE CHECK IF THE FOLDER PATH AND NEW NAME IS CORRECT
 BECAUSE YOU CAN EASILY RENAME FILES IN ANY FOLDER YOU DID NOT INTEND TO\n
-PRESS [ENTER] TO CONTINUE OR CTRL + C TO EXIT\n""")
-            
-        except NameError:
-            input(ttype.bold + tcolor.red + """PLEASE CHECK IF THE FOLDER PATH AND NEW NAME IS CORRECT
+PRESS [ENTER] TO CONTINUE OR CTRL + C TO EXIT\n""" + tcolor.white)
+
+    except NameError:
+        input(ttype.bold + tcolor.red + """PLEASE CHECK IF THE FOLDER PATH AND NEW NAME IS CORRECT
 BECAUSE YOU CAN EASILY RENAME FILES IN ANY FOLDER YOU DID NOT INTEND TO\n
 PRESS [ENTER] TO CONTINUE OR CTRL + C TO EXIT\n""" + tcolor.white)
         
     except KeyboardInterrupt:
         print("\nThank you for using Batch File Renamer by Girish Oemrawsingh.")
-        print("You can view this project on Github: https://github.com/darko3/batch-renamer")
+        print("You can view this project on Github: %s" % github_project_page)
         sys.exit(2)
         
         
@@ -128,7 +125,6 @@ PRESS [ENTER] TO CONTINUE OR CTRL + C TO EXIT\n""" + tcolor.white)
     end = time.time()
     total_time = end - start
     print("\nFinished renaming %d files with a total time of %f seconds." % (file_counter, total_time))
-    sys.exit(0)
             
 
 if __name__ == "__main__":

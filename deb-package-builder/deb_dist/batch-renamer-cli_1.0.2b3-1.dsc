@@ -10,11 +10,11 @@ Build-Depends: dh-python, python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3),
 Package-List:
  python-batch-renamer-cli deb python optional arch=all
 Checksums-Sha1:
- 83b8919a31483a61e55a276ff442c1066187f63c 2830 batch-renamer-cli_1.0.2b3.orig.tar.gz
- f225b864776d729cc8f8d1c7ecbdaa8d1f9eb617 920 batch-renamer-cli_1.0.2b3-1.debian.tar.xz
+ b50424ec8fd6d59bca112511bbb7320ddb19b8de 2837 batch-renamer-cli_1.0.2b3.orig.tar.gz
+ b164a9e2a514ad15ae08a27d706def5afa6cb6c6 924 batch-renamer-cli_1.0.2b3-1.debian.tar.xz
 Checksums-Sha256:
- 699ade30ca8251c74bfb45e353de48093b1bf6a21185ceccf59b1672f0a2e1db 2830 batch-renamer-cli_1.0.2b3.orig.tar.gz
- 5d9011bc87e2e5770333246f7deb9ddb3ed26e94ebce1e1094f3b85582f9a89e 920 batch-renamer-cli_1.0.2b3-1.debian.tar.xz
+ caa5aa67513466196f3cbc2137718b552abe1b03d4157bb4fbce5cf4279cefc9 2837 batch-renamer-cli_1.0.2b3.orig.tar.gz
+ e7e463d0f62143460c3331539e7e443a213f1908d6c19dc41bd16da9e9974845 924 batch-renamer-cli_1.0.2b3-1.debian.tar.xz
 Files:
- d43501bd64a1f64ebf77a643ac4d9829 2830 batch-renamer-cli_1.0.2b3.orig.tar.gz
- 0063097a32217cf59e46891f1b4dfa77 920 batch-renamer-cli_1.0.2b3-1.debian.tar.xz
+ 79fa26ce1f01824fa34f280dcffbfb11 2837 batch-renamer-cli_1.0.2b3.orig.tar.gz
+ f735fea2b5ccba63132debd9b55cfab8 924 batch-renamer-cli_1.0.2b3-1.debian.tar.xz
