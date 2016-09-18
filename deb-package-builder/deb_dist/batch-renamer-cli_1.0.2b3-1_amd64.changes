@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Sun, 18 Sep 2016 10:33:34 -0300
+Date: Sun, 18 Sep 2016 10:44:02 -0300
 Source: batch-renamer-cli
 Binary: python-batch-renamer-cli
 Architecture: all
@@ -15,8 +15,8 @@ Changes:
  .
    * source package automatically created by stdeb 0.8.5
 Checksums-Sha1:
- bf52f8bda58ed5315494d8b6e4d86dd6332ae1f1 4068 python-batch-renamer-cli_1.0.2b3-1_all.deb
+ 1a83f6e5bdf7234cae03c72bbca393bab805341f 4060 python-batch-renamer-cli_1.0.2b3-1_all.deb
 Checksums-Sha256:
- 46d5e271fd764da2789cb55b3d75cb9e6708b8b5e61c620832bc5256f2fbe51f 4068 python-batch-renamer-cli_1.0.2b3-1_all.deb
+ 3db2ac522a8e6608c3244d0876548757579072417e4073b2b1ecd78abe4b0282 4060 python-batch-renamer-cli_1.0.2b3-1_all.deb
 Files:
- 411b8bbd27472442df0e3afb3b895ca1 4068 python optional python-batch-renamer-cli_1.0.2b3-1_all.deb
+ 0b1026db5f32325fe1a7a1256dd305c0 4060 python optional python-batch-renamer-cli_1.0.2b3-1_all.deb

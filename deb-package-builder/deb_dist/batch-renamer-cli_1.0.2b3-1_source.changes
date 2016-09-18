@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Sun, 18 Sep 2016 10:33:34 -0300
+Date: Sun, 18 Sep 2016 10:44:02 -0300
 Source: batch-renamer-cli
 Binary: python-batch-renamer-cli
 Architecture: source
@@ -15,14 +15,14 @@ Changes:
  .
    * source package automatically created by stdeb 0.8.5
 Checksums-Sha1:
- 7d5562c2763fa7e0ee0b8548f2f06b1f1363660e 1006 batch-renamer-cli_1.0.2b3-1.dsc
- b50424ec8fd6d59bca112511bbb7320ddb19b8de 2837 batch-renamer-cli_1.0.2b3.orig.tar.gz
- b164a9e2a514ad15ae08a27d706def5afa6cb6c6 924 batch-renamer-cli_1.0.2b3-1.debian.tar.xz
+ 536153167fad5330a241186e119def22da948112 1006 batch-renamer-cli_1.0.2b3-1.dsc
+ 7aedc40cbe848db77e5bc5578634c79df07773c6 2822 batch-renamer-cli_1.0.2b3.orig.tar.gz
+ 7b643c80374d6218d9cf047778f70aefaf822fea 920 batch-renamer-cli_1.0.2b3-1.debian.tar.xz
 Checksums-Sha256:
- 3b0cd949dff277623be2655a8131caaa59dca3d31a926433eaab5ef5b7d4bf55 1006 batch-renamer-cli_1.0.2b3-1.dsc
- caa5aa67513466196f3cbc2137718b552abe1b03d4157bb4fbce5cf4279cefc9 2837 batch-renamer-cli_1.0.2b3.orig.tar.gz
- e7e463d0f62143460c3331539e7e443a213f1908d6c19dc41bd16da9e9974845 924 batch-renamer-cli_1.0.2b3-1.debian.tar.xz
+ a064c288bdc4346ea69d9e789e8c1ffbbbecd3733dd9f5d5cca25d059a9adc0d 1006 batch-renamer-cli_1.0.2b3-1.dsc
+ 3349c0a3cdf794529a08215b4b4bc5bcecb74564953eb7882e13bffbb5f8172e 2822 batch-renamer-cli_1.0.2b3.orig.tar.gz
+ cf6d255db9a08c743e7040d3c29eacae90269fc446c1010a88df5ddce6ff6d16 920 batch-renamer-cli_1.0.2b3-1.debian.tar.xz
 Files:
- 1dc262234572dd1f6f7d428ac1956cf1 1006 python optional batch-renamer-cli_1.0.2b3-1.dsc
- 79fa26ce1f01824fa34f280dcffbfb11 2837 python optional batch-renamer-cli_1.0.2b3.orig.tar.gz
- f735fea2b5ccba63132debd9b55cfab8 924 python optional batch-renamer-cli_1.0.2b3-1.debian.tar.xz
+ 534282d7c802742dfc112a6aa4fe1725 1006 python optional batch-renamer-cli_1.0.2b3-1.dsc
+ 5897dc9b8298a66a395d780c20b021e7 2822 python optional batch-renamer-cli_1.0.2b3.orig.tar.gz
+ 323acda11e668a018691378d226a7581 920 python optional batch-renamer-cli_1.0.2b3-1.debian.tar.xz

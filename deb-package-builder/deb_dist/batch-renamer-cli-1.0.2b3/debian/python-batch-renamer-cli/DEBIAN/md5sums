@@ -4,6 +4,6 @@ b5f9d0e3c4c12b19979912168bb326f9  usr/lib/python2.7/dist-packages/batch_renamer_
 ad03b4dff1a6d50695b27b4def833e86  usr/lib/python2.7/dist-packages/batch_renamer_cli-1.0.2b3.egg-info/entry_points.txt
 5f743e70c6d247cc7a650374f48ca1e3  usr/lib/python2.7/dist-packages/batch_renamer_cli-1.0.2b3.egg-info/top_level.txt
 68b329da9893e34099c7d8ad5cb9c940  usr/lib/python2.7/dist-packages/br/__init__.py
-2e0429891169bc6d94ba29bcfba2e7bd  usr/lib/python2.7/dist-packages/br/br.py
+a1b7276559ceb98a8a307a5b1b5e15ab  usr/lib/python2.7/dist-packages/br/br.py
 7a5082d8cd2c76bc74fb65d4d567a0f4  usr/lib/python2.7/dist-packages/br/color.py
-4eb0cdade8b0001a087f7e5610d84797  usr/share/doc/python-batch-renamer-cli/changelog.Debian.gz
+a50ea88578dc75ea794358efd2442114  usr/share/doc/python-batch-renamer-cli/changelog.Debian.gz
