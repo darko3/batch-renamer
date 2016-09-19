@@ -26,7 +26,7 @@ colorama can be installed with pip with the following command:
 
 `pip install colorama`
 
-**colorrama is only needed if you're going to be building with cx_Freeze or if you're running the program from the source code (*.py files).**
+**colorama is only needed if you're going to be building with cx_Freeze or if you're running the program from the source code (*.py files).**
 
 Please see https://darko3.github.io/batch-renamer/installation for installation inctructions.
 
