@@ -19,6 +19,13 @@ You can find all releases on the releases page: [https://github.com/darko3/batch
 ## Installation
 > *Only Ubuntu Xenial, Trusty, Vivid and Wily are supported if you're installing from a PPA
 
+3rd party modules used:
+* colorama
+
+colorama can be installed with pip with the following command:
+
+`pip install colorama`
+
 Please see https://darko3.github.io/batch-renamer/installation for installation inctructions.
 
 ## Requirements
