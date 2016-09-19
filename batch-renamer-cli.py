@@ -28,6 +28,7 @@ import os
 import sys
 import time
 import getopt
+import colorama
 
 # import the color module I wrote for my projects
 from color import Color as tcolor
@@ -130,4 +131,5 @@ PRESS [ENTER] TO CONTINUE OR CTRL + C TO EXIT\n""" + tcolor.white)
 if __name__ == "__main__":
     folder = ''
     new_name = ''
+    colorama.init()
     main(folder, new_name)
