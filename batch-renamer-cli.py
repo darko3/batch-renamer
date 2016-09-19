@@ -28,6 +28,10 @@ import os
 import sys
 import time
 import getopt
+
+# This is a 3rd party module, it's needed for colors in the windows commandline
+# If you don't have it, you can install it with pip
+# pip install colorama
 import colorama
 
 # import the color module I wrote for my projects
