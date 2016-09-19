@@ -26,12 +26,16 @@ colorama can be installed with pip with the following command:
 
 `pip install colorama`
 
+**colorrama is only needed if you're going to be building with cx_Freeze or if you're running the program from the source code (*.py files).**
+
 Please see https://darko3.github.io/batch-renamer/installation for installation inctructions.
 
 ## Requirements
-> **Note: I will compile the binary / executable files for Windows and Linux systems very soon, so you don't need to have Python 2.7 installed anymore.**
 
-* Python 2.7
+**Update: Windows and Linux installers are now compiled, see https://github.com/darko3/batch-renamer/releases for the binary files.**
+
+
+* Python 2.7 (optional, only needed if you are going to be running from source)
 * A Linux or Windows Operating System
 
 ## License
