@@ -7,6 +7,8 @@
 
 A script written in Python 2.7 to batch rename files in a folder with the specified name ending with incrementing numbers.
 
+*The code will be rewritten in February 2017*
+
 ## Releases
 * Batch File Renamer v1.0.1
 * Batch File Renamer v1.0.2a
