@@ -5,4 +5,4 @@ python:
 script:
   - sudo pip install colorama
   - sudo python setup.py install
-  - sudo batch-rename
+  - sudo batch-rename --help
