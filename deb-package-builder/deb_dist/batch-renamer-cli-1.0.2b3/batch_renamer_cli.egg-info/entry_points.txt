@@ -1,3 +1,0 @@
-[console_scripts]
-batch-renamer-cli = br.br:main
-

@@ -1,7 +1,0 @@
-
-# Automatically added by dhpython:
-if which pycompile >/dev/null 2>&1; then
-	pycompile -p python-batch-renamer-cli 
-fi
-
-# End automatically added section

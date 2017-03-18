@@ -1,44 +1,35 @@
 ## Batch Renamer 
 [![Build Status](https://travis-ci.org/darko3/batch-renamer.svg?branch=master)](https://travis-ci.org/darko3/batch-renamer) [![Packagist](https://img.shields.io/badge/python-2.7-yellow.svg)](https://www.python.org) [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)](https://github.com/darko3/batch-renamer/blob/master/LICENSE) [![Packagist](https://img.shields.io/badge/OS-Linux%20|%20Windows-orange.svg)](#)
 
-![alt text](http://i.imgur.com/xQL2Zbi.png "Screenshot from v1.0.2b")
+![alt text](http://i.imgur.com/YhuX94a.png "Screenshot from v1.0.3")
 
 
-
-A script written in Python 2.7 to batch rename files in a folder with the specified name ending with incrementing numbers.
-
-*The code will be rewritten in February 2017*
-
-## Releases
-* Batch File Renamer v1.0.1
-* Batch File Renamer v1.0.2a
-* Batch File Renamer v1.0.2b
-
-Latest release: v1.0.2b
-
-You can find all releases on the releases page: [https://github.com/darko3/batch-renamer/releases](https://github.com/darko3/batch-renamer/releases)
+An easy to use python script for quickly renaming multiple files ending with incrementing numbers.
 
 ## Installation
-> *Only Ubuntu Xenial, Trusty, Vivid and Wily are supported if you're installing from a PPA
 
-3rd party modules used:
-* colorama
+1. Clone the git repository
 
-colorama can be installed with pip with the following command:
+    `$ git clone https://github.com/darko3/batch-renamer.git`
 
-`pip install colorama`
+2. Change directory into the git repository
 
-**colorama is only needed if you're going to be building with cx_Freeze or if you're running the program from the source code (*.py files).**
+    `$ cd batch-renamer`
 
-Please see https://darko3.github.io/batch-renamer/installation for installation inctructions.
+3. Run setup.py
+
+    `$ sudo python setup.py install`
+
+4. If all the above commands were successful, you should now be able to run the script from the commandline
+
+    `$ batch-rename`
 
 ## Requirements
 
-**Update: Windows and Linux installers are now compiled, see https://github.com/darko3/batch-renamer/releases for the binary files.**
+* Python 2.x - 3.x
+* Colorama module
 
-
-* Python 2.7 (optional, only needed if you are going to be running from source)
-* A Linux or Windows Operating System
+You can install colorama with `$ sudo pip install colorama`.
 
 ## License
 This project is licensed under the terms of the MIT license.

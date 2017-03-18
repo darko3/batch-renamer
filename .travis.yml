@@ -1,14 +1,6 @@
 language: python
 python:
   - "2.7"
-  
-install:
-  - sudo apt-get install python-tk
-  - sudo pip install nvpy
-  - sudo apt-get install python-stdeb fakeroot python-all
-  
+
 script:
-  - cd deb-package-builder
-  - sudo python setup.py --command-packages=stdeb.command bdist_deb
-  - sudo dpkg -i deb_dist/python-batch-renamer-cli_1.0.2b3-1_all.deb
-  
+  - sudo python setup.py install
