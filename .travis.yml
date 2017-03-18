@@ -3,5 +3,6 @@ python:
   - "2.7"
 
 script:
+  - sudo pip install colorama
   - sudo python setup.py install
   - sudo batch-rename
