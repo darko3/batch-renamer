@@ -11,7 +11,7 @@ shutil.copyfile('batch-rename.py', 'scripts/batch-rename')
 
 setup(
     name='Batch File Renamer',
-    version='1.0.3',
+    version='1.0.4',
     packages=['batch_renamer_cli'],
     scripts=['scripts/batch-rename'],
     url='https://github.com/darko3/batch-renamer',
