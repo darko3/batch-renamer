@@ -96,5 +96,5 @@ ENV/
 # Idea (PyCharm) project configuration
 .idea/
 
-# Script directories
+# Script directories created when installing
 scripts/
