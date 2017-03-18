@@ -4,3 +4,4 @@ python:
 
 script:
   - sudo python setup.py install
+  - sudo batch-rename
