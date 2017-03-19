@@ -98,3 +98,4 @@ ENV/
 
 # Script directories created when installing
 scripts/
+/MANIFEST
