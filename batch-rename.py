@@ -43,7 +43,7 @@ from batch_renamer_cli import textType as TextType
 from batch_renamer_cli import sort_by_name
 
 
-version = '1.0.4'
+version = '1.0.5'
 github_project_page = TextType.bold + TextColor.green + 'https://github.com/darko3/batch-renamer' + TextColor.white
 usage = """
 Batch File Renamer %s - (C) 2017 Girish Oemrawsingh

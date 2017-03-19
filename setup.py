@@ -7,11 +7,14 @@ from distutils.core import setup
 if not os.path.exists('scripts'):
     os.makedirs('scripts')
 
-shutil.copyfile('batch-rename.py', 'scripts/batch-rename')
+try:
+    shutil.copyfile('batch-rename.py', 'scripts/batch-rename')
+except IOError:
+    print("Could not copy batch-rename.py file. You can ignore this if you're installing with pip.")
 
 setup(
     name='batch-rename',
-    version='1.0.4',
+    version='1.0.4b',
     packages=['batch_renamer_cli'],
     scripts=['scripts/batch-rename'],
     url='https://github.com/darko3/batch-renamer',
