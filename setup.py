@@ -2,7 +2,7 @@
 
 import os
 import shutil
-from distutils.core import setup
+from setuptools import setup
 
 if not os.path.exists('scripts'):
     os.makedirs('scripts')
@@ -14,11 +14,12 @@ except IOError:
 
 setup(
     name='batch-rename',
-    version='1.0.5',
+    version='1.0.6',
     packages=['batch_renamer_cli'],
     scripts=['scripts/batch-rename'],
+    install_requires=['colorama'],
     url='https://github.com/darko3/batch-renamer',
-    download_url='https://github.com/darko3/batch-renamer/archive/1.0.5.tar.gz',
+    download_url='https://github.com/darko3/batch-renamer/archive/1.0.6.tar.gz',
     keywords=['batch-renamer', 'files', 'python'],
     license='MIT',
     author='Girish Oemrawsingh',
