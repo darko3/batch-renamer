@@ -15,6 +15,8 @@ setup(
     packages=['batch_renamer_cli'],
     scripts=['scripts/batch-rename'],
     url='https://github.com/darko3/batch-renamer',
+    download_url='https://github.com/darko3/batch-renamer/archive/1.0.4.tar.gz',
+    keywords=['batch-renamer', 'files', 'python'],
     license='MIT',
     author='Girish Oemrawsingh',
     author_email='girish.oemrawsingh@protonmail.com',
