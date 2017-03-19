@@ -10,7 +10,7 @@ if not os.path.exists('scripts'):
 shutil.copyfile('batch-rename.py', 'scripts/batch-rename')
 
 setup(
-    name='Batch File Renamer',
+    name='batch-rename',
     version='1.0.4',
     packages=['batch_renamer_cli'],
     scripts=['scripts/batch-rename'],
