@@ -43,7 +43,7 @@ from batch_renamer_cli import textType as TextType
 from batch_renamer_cli import sort_by_name
 
 
-version = '1.0.4'
+version = '1.0.5'
 github_project_page = TextType.bold + TextColor.green + 'https://github.com/darko3/batch-renamer' + TextColor.white
 usage = """
 Batch File Renamer %s - (C) 2017 Girish Oemrawsingh
@@ -65,8 +65,6 @@ Options:
   -s, --suppress-warnings           don't show warning prompt before renaming files
   -e, --ends-with <string>          specify a string to end file names with (useful for file extensions)
 """ % (version, github_project_page)
-
-rename_warning = """Press [ENTER] if you want to continue with these options or [CTRL-C] to cancel.\n"""
 
 
 def main(folder='', new_name='', ends_with=None, suppress_warnings=False, verbose=False):

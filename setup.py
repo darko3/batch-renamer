@@ -14,11 +14,11 @@ except IOError:
 
 setup(
     name='batch-rename',
-    version='1.0.4b',
+    version='1.0.5',
     packages=['batch_renamer_cli'],
     scripts=['scripts/batch-rename'],
     url='https://github.com/darko3/batch-renamer',
-    download_url='https://github.com/darko3/batch-renamer/archive/1.0.4.tar.gz',
+    download_url='https://github.com/darko3/batch-renamer/archive/1.0.5.tar.gz',
     keywords=['batch-renamer', 'files', 'python'],
     license='MIT',
     author='Girish Oemrawsingh',
